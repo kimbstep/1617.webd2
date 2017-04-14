@@ -1,28 +1,143 @@
-* {
-  box-sizing: border-box;
+/*********************************** 
+    KLEUREN:
+        quick silver: #A0A0A0 
+        gunmetal: #2A363B 
+        japanese carmine: #992233 
+        new york pink: #D87F77
+        anti-flash white: #F2F2F2
+***********************************/
+
+/* alles */
+body, html {
+    margin: 0;
+    font-family: 'Cuprum', sans-serif;
+    background: #2A363B;
+    color: #F2F2F2;
+}
+h1 {
+    margin: 30px;
+    font-size: 25px;
+}
+h2 {
+    font-size: 16px;
+}
+p {
+    font-size: 12px;
+}
+.content {
+    padding: 30px;
+}
+.main-nav {
+    width: 100%;
+    background-color: #F2F2F2;
+    height: 70px;
+    color: #000;
+}
+.main-nav .logo {
+    float: left;
+    height: 40px;
+    padding: 15px 30px;
+    font-size: 28px;
+    line-height: 40px;
+}
+.main-nav>ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+}
+.main-nav>ul>li {
+    float: left;
+}
+.list {
+    padding: 20px;
+    font-size: 22px;
+    margin-right: 3px;
+}
+.list a {
+    color: #000;
+    text-decoration: none;
+}
+.PixZ {
+    width: 70px;
+}
+/***********************
+.material-icons.md-36 {
+    font-size: 36px;
+}
+***********************/
+
+/* homepage */
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.home-divv {
+    margin: 100px 20px 0 20px;
+}
+.hometd {
+    padding: 20px 60px 0 60px;
+    text-align: justify;
+}
+.back-dienst {
+    background-color: rgba(162,162,162,0.3);
+    border-radius: 8px;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
+/* contact */
+.formulier-1 {
+    width: 225px;
 }
-
-body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
-  background-size: cover;
-
-  color: rgba(232,234,246 ,1);
+.formulier-2-0 {
+    width: 600px;
+    height: 160px;
 }
-
-.intro {
-  width: 90vw;
-
-  padding: 1rem;
-  margin-top: 1rem;
-
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
+.formulier-2-1 {
+    width: 600px;
+    height: 183px;
+}
+legend {
+    color: #F2F2F2;
+    font-size: 16px;
+    font-style: italic;
+}
+input[type=text],[type=email],[type=tel] {
+    background: none;
+    border: none;
+    color: #F2F2F2;
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
+}
+input[type=submit] {
+    background-color: #992233;
+    color: #F2F2F2;
+    height: 45px;
+    width: 253px;
+    margin: 12px 1px 1px 1px;
+    border-radius: 1px;
+    border-color: #F2F2F2;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+}
+.back-tabel {
+    background-color: rgba(162,162,162,0.3);
+    width: 1150px;
+    height: 335px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(162,162,162,0), rgba(162,162,162,0.75), rgba(162,162,162,0));
+}
+.contact-td {
+    padding: 20px 60px 0 60px;
+    text-align: justify;
 }
