@@ -14,16 +14,6 @@ body, html {
     background: #2A363B;
     color: #F2F2F2;
 }
-h1 {
-    margin: 30px;
-    font-size: 25px;
-}
-h2 {
-    font-size: 16px;
-}
-p {
-    font-size: 12px;
-}
 .content {
     padding: 30px;
 }
