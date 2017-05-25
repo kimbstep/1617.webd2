@@ -1,65 +1,81 @@
-/* basics */
+/* basic */
+
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 .grid__wrapper {
-  display: block;
-  margin: 0;
-  padding: 0;
+    display: block;
+    margin: 0;
+    padding: 0;
 }
-.grid__container { /* wrapper heeft altijd 1 container */
-  display: block;
-  max-width: 1140px; /* altijd 1140 px */
-  margin: 0 auto; /* centreert */
-  padding: 0px 16px;
+.grid__container {
+    display: block;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0px 16px;
 }
 .grid__row {
-  display: block;
-  margin: 0px -16px;
-  padding: 0;
-  overflow: hidden;
+    display: block;
+    margin: 0px -16px;
+    padding: 0;
+    overflow: hidden;
 }
 .grid__column {
-  position: relative;
-  float: left;
-  padding: 0 16px;
+    position: relative;
+    float: left;
+    padding: 0 16px;
 }
-
 
 /* column's */
-.grid__column-12 {
-  width: 100%;
+
+.grid__port {
+    width: 25%;
 }
-.grid__column-11 {
-  width: 91.6667%;
+.grid_port_title {
+    text-align: left;
+    margin-top: 50px;
+    width: 100%;
 }
-.grid__column-10 {
-  width: 83.3333%;
+.grid__title {
+    margin-top: 40px;
+    width: 100%;
 }
-.grid__column-9 {
-  width: 75%;
+.grid__foto {
+    width: 33.3333%;
 }
-.grid__column-8 {
-  width: 66.6667%;
+.grid__text {
+    padding-left: 150px;
+    width: 66.6667%;
 }
-.grid__column-7 {
-  width: 58.3333%;
+.grid_title_dienst {
+    margin-top: 150px;
+    text-align: center;
+    width: 33.3333%;
 }
-.grid__column-6 {
-  width: 50%;
+.grid__dienst {
+    width: 33.3333%;
 }
-.grid__column-5 {
-  width: 41.6667%;
+.grid__form {
+    width: 100%;
 }
-.grid__column-4 {
-  width: 33.3333%;
+.grid__loca {
+    width: 100%;
 }
-.grid__column-3 {
-  width: 25%;
+.grid_loca_text {
+    width: 50%;
+    padding-left: 52px;
 }
-.grid__column-2 {
-  width: 16.6667%;
+.grid_loca_map {
+    width: 50%;
+    padding-left: 150px;
 }
-.grid__column-1 {
-  width: 8.3333%;
+.grid__team {
+    margin-top: 40px;
+    width: 50%;
+}
+.grid__team_pic {
+    padding-left: 120px;
+}
+.grid__team_txt {
+    padding-right: 120px;
 }
