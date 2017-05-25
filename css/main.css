@@ -52,24 +52,12 @@ body, html {
     width: 70px;
 }
 
-/* homepage */
-
-
 
 /* portfolio */
-.port {
-    width: 180px;
-    height: 180px;
-}
 .back-port:hover {
     background-color: rgba(153, 34, 51, 0.6);
 }
 
-/* over ons */
-.team {
-    width: 180px;
-    height: 180px;
-}
 
 /* contact */
 .formulier-1 {
@@ -116,11 +104,6 @@ input[type=submit] {
     border-radius: 8px;
 }
 
-/* detailpagina's */
-.det {
-    width: 430px;
-    height: 430px;
-}
 
 /* STYLEGUIDE */
 button {
