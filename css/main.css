@@ -7,13 +7,21 @@
         anti-flash white: #F2F2F2
 ***********************************/
 
-/* alles */
+/* basic */
+
 body, html {
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Cuprum', sans-serif;
     background: #2A363B;
     color: #F2F2F2;
 }
+
+/**body {
+                                                background: url('../_img/bg.jpg') no-repeat center center;
+                                                background-size: cover;
+                                            }
+                                            **/
+
 .content {
     padding: 30px;
 }
@@ -51,41 +59,65 @@ body, html {
 .PixZ {
     width: 70px;
 }
-/***********************
-.material-icons.md-36 {
-    font-size: 36px;
-}
-***********************/
 
 /* homepage */
-table {
-    margin-left: auto;
-    margin-right: auto;
-}
-.home-divv {
-    margin: 100px 20px 0 20px;
-}
-.hometd {
-    padding: 20px 60px 0 60px;
-    text-align: justify;
-}
+
+
+/* diensten */
+
 .back-dienst {
-    background-color: rgba(162,162,162,0.3);
+    background-color: rgba(162, 162, 162, 0.3);
     border-radius: 8px;
     width: 300px;
-    height: 200px;
+    height: 220px;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* portfolio */
+
+.back-port {
+    background-color: rgba(162, 162, 162, 0.3);
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.port {
+    width: 180px;
+    height: 180px;
+}
+.back-port:hover {
+    background-color: rgba(153, 34, 51, 0.6);
+}
+
+/* over ons */
+
+.back-team {
+    background-color: rgba(162, 162, 162, 0.3);
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team {
+    width: 180px;
+    height: 180px;
+}
+
 /* contact */
+
 .formulier-1 {
     width: 225px;
 }
 .formulier-2-0 {
     width: 600px;
-    height: 160px;
+    height: 145px;
 }
 .formulier-2-1 {
     width: 600px;
@@ -96,7 +128,7 @@ legend {
     font-size: 16px;
     font-style: italic;
 }
-input[type=text],[type=email],[type=tel] {
+input[type=text], [type=email], [type=tel] {
     background: none;
     border: none;
     color: #F2F2F2;
@@ -115,19 +147,118 @@ input[type=submit] {
     font-size: 14px;
 }
 .back-tabel {
-    background-color: rgba(162,162,162,0.3);
-    width: 1150px;
+    background-color: rgba(162, 162, 162, 0.3);
+    width: 1125px;
     height: 335px;
     border-radius: 8px;
     margin-left: auto;
     margin-right: auto;
 }
-hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(162,162,162,0), rgba(162,162,162,0.75), rgba(162,162,162,0));
-}
 .contact-td {
     padding: 20px 60px 0 60px;
     text-align: justify;
+}
+.box {
+    background-color: rgba(162, 162, 162, 0.3);
+    width: 421px;
+    height: 335px;
+    border-radius: 8px;
+}
+
+#map {
+    width: 421px;
+    height: 335px;
+    border-radius: 8px;
+}
+
+/* detailpagina's */
+
+.back-det {
+    background-color: rgba(162, 162, 162, 0.3);
+    border-radius: 8px;
+    width: 450px;
+    height: 450px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.det {
+    width: 430px;
+    height: 430px;
+}
+
+/* STYLEGUIDE */
+
+button {
+    background-color: #992233;
+    color: #F2F2F2;
+    height: 45px;
+    width: 253px;
+    margin: 12px 1px 1px 20px;
+    border-radius: 1px;
+    border-color: #F2F2F2;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+}
+button:hover {
+    background-color: #A0A0A0;
+    color: #F2F2F2;
+}
+.backgr {
+    margin: 20px;
+    background-color: rgba(162, 162, 162, 0.3);
+    border-radius: 8px;
+    width: 300px;
+    height: 220px;
+    padding: 10px;
+}
+.color1 {
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: #A0A0A0;
+    border: 2px solid black;
+}
+.color2 {
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: #2A363B;
+    border: 2px solid black;
+}
+.color3 {
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: #992233;
+    border: 2px solid black;
+}
+.color4 {
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: #D87F77;
+    border: 2px solid black;
+}
+.color5 {
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: #F2F2F2;
+    border: 2px solid black;
+}
+.text1 {
+    color: #A0A0A0;
+}
+.text2 {
+    color: #2A363B;
+}
+.text3 {
+    color: #992233;
+}
+.text4 {
+    color: #D87F77;
+}
+.text5 {
+    color: #F2F2F2;
 }
