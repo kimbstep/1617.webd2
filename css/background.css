@@ -1,0 +1,68 @@
+/**body {
+    background: url('../_img/bg.jpg') no-repeat center center;
+    background-size: cover;
+}**/
+
+/* diensten */
+.back-dienst {
+    background-color: rgba(162, 162, 162, 0.3);
+    border-radius: 8px;
+    width: 300px;
+    height: 220px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* portfolio */
+.back-port {
+    background-color: rgba(162, 162, 162, 0.3);
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* over ons */
+.back-team {
+    background-color: rgba(162, 162, 162, 0.3);
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* contact */
+.back-tabel {
+    background-color: rgba(162, 162, 162, 0.3);
+    width: 1125px;
+    height: 335px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box {
+    background-color: rgba(162, 162, 162, 0.3);
+    width: 421px;
+    height: 335px;
+    border-radius: 8px;
+}
+
+
+/* detailpagina's */
+.back-det {
+    background-color: rgba(162, 162, 162, 0.3);
+    border-radius: 8px;
+    width: 450px;
+    height: 450px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}

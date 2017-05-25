@@ -8,20 +8,12 @@
 ***********************************/
 
 /* basic */
-
 body, html {
     margin: 0 auto;
     font-family: 'Cuprum', sans-serif;
     background: #2A363B;
     color: #F2F2F2;
 }
-
-/**body {
-                                                background: url('../_img/bg.jpg') no-repeat center center;
-                                                background-size: cover;
-                                            }
-                                            **/
-
 .content {
     padding: 30px;
 }
@@ -63,29 +55,8 @@ body, html {
 /* homepage */
 
 
-/* diensten */
-
-.back-dienst {
-    background-color: rgba(162, 162, 162, 0.3);
-    border-radius: 8px;
-    width: 300px;
-    height: 220px;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 /* portfolio */
-
-.back-port {
-    background-color: rgba(162, 162, 162, 0.3);
-    border-radius: 8px;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .port {
     width: 180px;
     height: 180px;
@@ -95,23 +66,12 @@ body, html {
 }
 
 /* over ons */
-
-.back-team {
-    background-color: rgba(162, 162, 162, 0.3);
-    border-radius: 8px;
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .team {
     width: 180px;
     height: 180px;
 }
 
 /* contact */
-
 .formulier-1 {
     width: 225px;
 }
@@ -146,25 +106,10 @@ input[type=submit] {
     font-family: 'Muli', sans-serif;
     font-size: 14px;
 }
-.back-tabel {
-    background-color: rgba(162, 162, 162, 0.3);
-    width: 1125px;
-    height: 335px;
-    border-radius: 8px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .contact-td {
     padding: 20px 60px 0 60px;
     text-align: justify;
 }
-.box {
-    background-color: rgba(162, 162, 162, 0.3);
-    width: 421px;
-    height: 335px;
-    border-radius: 8px;
-}
-
 #map {
     width: 421px;
     height: 335px;
@@ -172,23 +117,12 @@ input[type=submit] {
 }
 
 /* detailpagina's */
-
-.back-det {
-    background-color: rgba(162, 162, 162, 0.3);
-    border-radius: 8px;
-    width: 450px;
-    height: 450px;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .det {
     width: 430px;
     height: 430px;
 }
 
 /* STYLEGUIDE */
-
 button {
     background-color: #992233;
     color: #F2F2F2;
