@@ -14,14 +14,14 @@
     margin: 0 auto;
     padding: 0px 16px;
 }
+.grid__container_index {
+    margin: 0 50px;
+}
 .grid__row {
     display: block;
     margin: 0px -16px;
     padding: 0;
     overflow: hidden;
-}
-.grid__row_index {
-    margin: 50px 0 50px 0;
 }
 .grid__column {
     position: relative;
