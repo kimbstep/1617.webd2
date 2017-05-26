@@ -9,7 +9,8 @@
 
 /* basic */
 .sml {
-    align-items: center;
+    display: block;
+    margin: auto;
 }
 body, html {
     margin: 0 auto;
