@@ -8,6 +8,9 @@
 ***********************************/
 
 /* basic */
+.sml {
+    margin: auto;
+}
 body, html {
     margin: 0 auto;
     font-family: 'Cuprum', sans-serif;
