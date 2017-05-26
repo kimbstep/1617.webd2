@@ -1,7 +1,7 @@
-/**body {
-    background: url('../_img/bg.jpg') no-repeat center center;
+body {
+    background: url('../assets/images/bg.png') no-repeat center center;
     background-size: cover;
-}**/
+}
 
 
 /* homepage */
@@ -13,11 +13,6 @@
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-}
-.tussenst {
-    overflow: hidden;
-    background: url('../assets/images/404.jpg') no-repeat center center fixed;
-    background-size: cover;
 }
 
 
