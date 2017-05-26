@@ -22,8 +22,11 @@ body {
   margin-top: 1rem;
   background: #992233;
   color: #F2F2F2;
+  font-family: 'Cuprum', sans-serif;
+
 }
 
 .p_404 {
   padding-left: 20px;
+  font-family: 'Cuprum', sans-serif;
 }
