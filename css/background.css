@@ -14,6 +14,11 @@
     margin-left: auto;
     margin-right: auto;
 }
+.tussenst {
+    overflow: hidden;
+    background: url('../assets/images/404.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
 
 
 /* diensten */
