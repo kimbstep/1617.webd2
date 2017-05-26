@@ -12,16 +12,14 @@ p {
     font-size: 18px;
 }
 .h1_index {
+    text-align: center;
     font-size: 60px;
-    padding-left: 360px;
-    padding-right: 350px;
     margin-top: 80px;
     margin-bottom: 15px;
 }
 .h3_index {
+    text-align: center;
     font-size: 30px;
-    padding-left: 200px;
-    padding-right: 200px;
     margin-top: 15px;
     margin-bottom: 60px;
 }
