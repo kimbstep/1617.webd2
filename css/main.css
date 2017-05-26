@@ -9,7 +9,7 @@
 
 /* basic */
 .sml {
-    margin: auto;
+    align-items: center;
 }
 body, html {
     margin: 0 auto;
