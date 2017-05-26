@@ -15,7 +15,8 @@
     padding: 0px 16px;
 }
 .grid__container_index {
-    margin: 0 50px;
+    margin-top: 15px;
+    margin-bottom: 60px;
 }
 .grid__row {
     display: block;
