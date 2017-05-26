@@ -13,16 +13,13 @@ body {
   overflow: hidden;
   background: url('../assets/images/404.JPG') no-repeat center center fixed;
   background-size: cover;
-
   color: #F2F2F2;
 }
 
 .intro {
   width: 90vw;
-
   padding: 1rem;
   margin-top: 1rem;
-
   background: #992233;
   color: #F2F2F2;
 }
