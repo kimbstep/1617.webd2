@@ -1,8 +1,6 @@
 body {
     background: url('../assets/images/bg.png') no-repeat center center;
     background-size: cover;
-    opacity: 0.5;
-    z-index: -1;
 }
 
 
