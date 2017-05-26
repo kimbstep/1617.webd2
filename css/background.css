@@ -3,6 +3,18 @@
     background-size: cover;
 }**/
 
+/* homepage */
+.back-index {
+    background-color: rgba(162, 162, 162, 0.3);
+    border-radius: 8px;
+    width: 300px;
+    height: 180px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /* diensten */
 .back-dienst {
     background-color: rgba(162, 162, 162, 0.3);
