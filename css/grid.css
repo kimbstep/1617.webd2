@@ -21,7 +21,7 @@
     overflow: hidden;
 }
 .grid__row_index {
-    padding: 50px 0 50px 0;
+    margin: 50px 0 50px 0;
 }
 .grid__column {
     position: relative;
